@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+if,Edge Chromium 123,,,19-04-2024 16:42:35,19-04-2024 16:42:47,11.634s,PASSED
+,,,,,,,
+Test Cases/Simple IF Statement,Edge Chromium 123,,,19-04-2024 16:42:36,19-04-2024 16:42:47,11.469s,PASSED
+openBrowser(URL),Edge Chromium 123,,,19-04-2024 16:42:36,19-04-2024 16:42:44,7.546s,PASSED
+maximizeWindow(),Edge Chromium 123,,,19-04-2024 16:42:44,19-04-2024 16:42:44,0.170s,PASSED
+"if (Username == ""admins"")",Edge Chromium 123,,,19-04-2024 16:42:44,19-04-2024 16:42:44,0.003s,PASSED
+else,Edge Chromium 123,,,19-04-2024 16:42:44,19-04-2024 16:42:45,0.853s,PASSED
+delay(Delay),Edge Chromium 123,,,19-04-2024 16:42:45,19-04-2024 16:42:47,2.053s,PASSED
+closeBrowser(),Edge Chromium 123,,,19-04-2024 16:42:47,19-04-2024 16:42:47,0.502s,PASSED

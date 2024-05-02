@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Coba" time="20.266" tests="2" failures="0" errors="0">
+   <testsuite name="Coba" tests="2" failures="0" errors="0" time="20.266" skipped="0" timestamp="17-04-2024T09:54:49" hostname="winggawii - 10.74.1.228" id="Test Suites/Coba">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\winggawii\\Katalon Studio\\Test\\Reports\\20240417_095443\\Coba\\20240417_095443"/>
+         <property name="logFiles" value="C:\\Users\\winggawii\\Katalon Studio\\Test\\Reports\\20240417_095443\\Coba\\20240417_095443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="winggawii - 10.74.1.228"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 123"/>
+         <property name="hostAddress" value="10.74.1.228"/>
+         <property name="sessionId" value="a9308a3f01b8e429409319ff758da5af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login_Script" time="10.727" classname="Test Cases/Login_Script" status="PASSED">
+         <system-out><![CDATA[17-04-2024T09:54:50 - [TEST_CASE][PASSED] - Test Cases/Login_Script: Test Cases/Login_Script
+
+17-04-2024T09:54:50 - [TEST_STEP][PASSED] - openBrowser("https://dev.admin-pickme.metrodataacademy.id/login"): Browser is opened with url: 'https://dev.admin-pickme.metrodataacademy.id/login'
+
+17-04-2024T09:54:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+17-04-2024T09:54:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-04-2024T09:54:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev.admin-pickme.metrodataacademy.id/login'
+
+17-04-2024T09:54:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-04-2024T09:54:54 - [MESSAGE][PASSED] - Current window maximized
+
+17-04-2024T09:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Logout/Page_Login Page/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Login_Logout/Page_Login Page/input_Username_username'
+
+17-04-2024T09:54:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_Logout/Page_Login Page/input_Username_username'
+
+17-04-2024T09:54:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_Logout/Page_Login Page/input_Kata Sandi_password"), "test1234"): Text 'test1234' is set on object 'Object Repository/Login_Logout/Page_Login Page/input_Kata Sandi_password'
+
+17-04-2024T09:54:56 - [MESSAGE][PASSED] - Text 'test1234' is set on object 'Object Repository/Login_Logout/Page_Login Page/input_Kata Sandi_password'
+
+17-04-2024T09:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Logout/Page_Login Page/button_LOGIN")): Object: 'Object Repository/Login_Logout/Page_Login Page/button_LOGIN' is clicked on
+
+17-04-2024T09:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/Page_Login Page/button_LOGIN' is clicked on
+
+17-04-2024T09:55:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login_Logout/Page_Home/h1_Selamat Datang"), 3): Object 'Object Repository/Login_Logout/Page_Home/h1_Selamat Datang' is present
+
+17-04-2024T09:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Logout/Page_Home/h1_Selamat Datang' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout_Script" time="9.33" classname="Test Cases/Logout_Script" status="PASSED">
+         <system-out><![CDATA[17-04-2024T09:55:00 - [TEST_CASE][PASSED] - Test Cases/Logout_Script: Test Cases/Logout_Script
+
+17-04-2024T09:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Logout/Page_Home/button_Husny Murabok")): Object: 'Object Repository/Login_Logout/Page_Home/button_Husny Murabok' is clicked on
+
+17-04-2024T09:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/Page_Home/button_Husny Murabok' is clicked on
+
+17-04-2024T09:55:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-04-2024T09:55:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-04-2024T09:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_Logout/Page_Home/a_Logout")): Object: 'Object Repository/Login_Logout/Page_Home/a_Logout' is clicked on
+
+17-04-2024T09:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Logout/Page_Home/a_Logout' is clicked on
+
+17-04-2024T09:55:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+17-04-2024T09:55:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+17-04-2024T09:55:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-04-2024T09:55:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-04-2024T09:54:49 - [TEST_SUITE][PASSED] - Coba: Test Cases/Logout_Script]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

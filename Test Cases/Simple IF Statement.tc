@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Simple IF Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>751e938b-d31e-455f-8087-f4262a75789a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c0707c9-3805-41d3-b279-e3252d2328bf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Login_Logout/Page_Login Page/input_Username_username')</defaultValue>
+      <description></description>
+      <id>1c0707c9-3805-41d3-b279-e3252d2328bf</id>
+      <masked>false</masked>
+      <name>Coba</name>
+   </variable>
+</TestCaseEntity>
